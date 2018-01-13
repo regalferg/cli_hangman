@@ -1,0 +1,1 @@
+dragon,knight,lord,vassal,fairy,witch,wizard,sorcerer,centaur,orc,goblin,orb,minotaur,cyclops,drake,gryphon,castle
