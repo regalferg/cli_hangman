@@ -2,7 +2,7 @@ var inquirer = require("inquirer");
 var WordLoad = require("./words");
 var Guess = require("./letters");
 
-var count = 0;
+
 
 function startGame(){
 
@@ -30,7 +30,10 @@ function playGame(){
 }]).then(function (answers){
 
 	var letterResult = new Guess(answers.guess);
+
 	letterResult.getLetter();
+	console.log("\n-------------\n");
+	console.log("incoming playGame() call");
 	playGame();
 })
 
