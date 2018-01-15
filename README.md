@@ -1,5 +1,9 @@
 # cli_hangman
-
+## Instructions
+	- To Install Packages:
+		- npm install
+	-To Run Game:
+		- node hangman.js
 
 ### Status
 1. **Working**
