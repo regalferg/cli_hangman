@@ -32,8 +32,10 @@ function playGame(){
 	var letterResult = new Guess(answers.guess);
 
 	letterResult.getLetter();
+	// letterResult.createArr();
 	console.log("\n-------------\n");
 	console.log("incoming playGame() call");
+
 	playGame();
 })
 

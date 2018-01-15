@@ -24,10 +24,10 @@ function Guess(guess){
        	console.log("Match!");
        	
        	console.log(guess);
-       	// var letterGuessed = guess;
+       	var newArr = [];
        	
-       	// this.guessed.push(letterGuessed);
-       	// console.log(this.guessed);
+       	console.log(newArr);
+       	
 
        }
        	else if (count < 6){
@@ -48,6 +48,12 @@ function Guess(guess){
 
        };
 }
+
+// Guess.prototype.createArr = function(guess) {
+// 	this.guessed.push(this.guess);
+// 	console.log(this.guessed);
+
+// };
 
 module.exports = Guess;
 
